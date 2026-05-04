@@ -1,0 +1,6 @@
+node_modules
+dist
+coverage
+*.local
+vite-dev*.log
+_assignment_source
