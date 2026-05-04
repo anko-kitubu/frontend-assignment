@@ -14,7 +14,7 @@
 
 ## Node.js
 
-`.nvmrc` に記載の `24.14.0` で確認しています。
+`.nvmrc` に Node.js のバージョンを記載しています。開発時は `24.14.0` を使用してください。
 
 ## セットアップ
 
@@ -29,7 +29,8 @@ npm run dev
 
 ```bash
 npm run lint
-npm run test
+npm run format
+npm run test -- --run
 npm run build
 ```
 

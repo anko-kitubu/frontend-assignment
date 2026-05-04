@@ -278,6 +278,7 @@ h1 {
 .carousel__slide {
   display: grid;
   flex: 0 0 100%;
+  align-content: start;
   align-items: start;
   grid-template-columns: 1fr;
   gap: 16px;
